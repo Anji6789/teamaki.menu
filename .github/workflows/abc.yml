@@ -16,8 +16,10 @@ jobs:
          
     
     # dotnet build and publish
-    - name: Build with dotnet
-      run: dotnet build --configuration Release ./src/TeaMaki.Persistence/TeaMaki.Persistence.csproj
+    - name: creating OctocatApp
+      run: dotnet new console --name OctocatApp
+    - name: Build with dotnet      
+      run: dotnet pack --configuration Release ./src/TeaMaki.Persistence/TeaMaki.Persistence.csproj
     - name: dotnet publish
       run: |
         dotnet publish -c Release -o dotnetcorewebapp 
