@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/makiyamad/teamaki.menu</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Anji6789/teamaki.menu</RepositoryUrl>
     <Description>This is a generic persistence class that contains generic repository implementation for accessing and persisting data in the database of your preference</Description>
     <PackageReleaseNotes>Adding support for RavenDb databases</PackageReleaseNotes>
     <Version>0.0.2</Version>
