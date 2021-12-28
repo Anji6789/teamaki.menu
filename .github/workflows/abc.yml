@@ -17,7 +17,7 @@ jobs:
     
     # dotnet build and publish
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release ./src/TeaMaki.Persistence/TeaMaki.Persistence.csproj
     - name: dotnet publish
       run: |
         dotnet publish -c Release -o dotnetcorewebapp 
